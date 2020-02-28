@@ -1,19 +1,17 @@
-package com.telran.scheduler;
+package com.telran.scheduler.manager;
 
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class FirstTest {
+public class ApplicationManager {
     AppiumDriver driver;
+    SessionHelper session;
+    EventPage event;
 
-    @BeforeClass
-    public void setUp() throws MalformedURLException {
+    public void init() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         capabilities.setCapability("platformName", "Android");
@@ -27,17 +25,20 @@ public class FirstTest {
 
         driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
+        session = new SessionHelper(driver);
+        event = new EventPage(driver);
     }
 
-    @Test
-    public void openUp() {
-        System.out.println("Application opened");
+    public SessionHelper getSession() {
+        return session;
     }
 
-    @AfterClass
-    public void tearDown() throws InterruptedException {
+    public EventPage getEvent() {
+        return event;
+    }
+
+    public void stop() throws InterruptedException {
         Thread.sleep(3000);
         driver.quit();
-
     }
 }

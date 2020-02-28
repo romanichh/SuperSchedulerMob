@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f883767-8e4f-4762-a3d7-5043fddc4992" name="Default Changelist" comment="" />
+    <list default="true" id="1f883767-8e4f-4762-a3d7-5043fddc4992" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/scheduler/tests/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.telran.scheduler.FirstTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.telran.scheduler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.telran.scheduler.FirstTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/scheduler/FirstTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +30,30 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YGn13SsEdRzjD2v9xMiBbZfflc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,37 +61,59 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.telran.scheduler" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.telran.scheduler.manager" />
+      <recent name="com.telran.scheduler" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="FirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.telran.scheduler.FirstTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="TestNG.LoginTest.testLogin">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SuperSchedulerMob.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.scheduler.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.scheduler.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.scheduler.tests.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SuperSchedulerMob.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.scheduler.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.scheduler.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.scheduler.tests.LoginTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FirstTest" />
+        <item itemvalue="TestNG.LoginTest.testLogin" />
+        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -66,5 +129,79 @@
       <updated>1582577579676</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1817" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582907128660">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state x="1817" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582907128660" />
+    <state x="2168" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1582906858362">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state x="2168" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582906858362" />
+    <state x="2092" y="132" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582839451588">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state x="2092" y="132" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582839451588" />
+    <state x="2072" y="116" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1582835974655">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state x="2072" y="116" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582835974655" />
+    <state width="1367" height="178" key="GridCell.Tab.0.bottom" timestamp="1582907040676">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="178" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582907040676" />
+    <state width="1367" height="178" key="GridCell.Tab.0.center" timestamp="1582907040676">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="178" key="GridCell.Tab.0.center/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582907040676" />
+    <state width="1367" height="178" key="GridCell.Tab.0.left" timestamp="1582907040675">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="178" key="GridCell.Tab.0.left/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582907040675" />
+    <state width="1367" height="178" key="GridCell.Tab.0.right" timestamp="1582907040676">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="178" key="GridCell.Tab.0.right/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582907040676" />
+    <state width="1367" height="232" key="GridCell.Tab.1.bottom" timestamp="1582905334968">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="232" key="GridCell.Tab.1.bottom/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582905334968" />
+    <state width="1367" height="232" key="GridCell.Tab.1.center" timestamp="1582905334968">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="232" key="GridCell.Tab.1.center/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582905334968" />
+    <state width="1367" height="232" key="GridCell.Tab.1.left" timestamp="1582905334968">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="232" key="GridCell.Tab.1.left/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582905334968" />
+    <state width="1367" height="232" key="GridCell.Tab.1.right" timestamp="1582905334968">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="232" key="GridCell.Tab.1.right/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582905334968" />
+    <state x="2089" y="0" key="RefactorJ.IntroduceParameterObject" timestamp="1582839467108">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state x="2089" y="0" key="RefactorJ.IntroduceParameterObject/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582839467108" />
+    <state x="2178" y="298" key="ReplaceDuplicatesPrompt" timestamp="1582904699639">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state x="2178" y="298" key="ReplaceDuplicatesPrompt/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582904699639" />
+    <state x="1864" y="6" key="SettingsEditor" timestamp="1582902006412">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state x="1864" y="6" key="SettingsEditor/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582902006412" />
+    <state x="2059" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582834705754">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state x="2059" y="188" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582834705754" />
+    <state x="2093" y="133" width="540" height="496" key="extract.method.dialog" timestamp="1582904695277">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state x="2093" y="133" width="540" height="496" key="extract.method.dialog/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582904695277" />
+    <state x="2069" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1582839053800">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state x="2069" y="0" key="refactoring.ChangeSignatureDialog/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582839053800" />
   </component>
 </project>
